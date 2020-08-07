@@ -1,6 +1,6 @@
 print("***Welcome to the NIGHT ALONE***")
 
-options = ["A", "B"]
+options = ["A", "a", "B", "b"]
 
 name = input("Hello there, what is your name?")
 
@@ -16,7 +16,7 @@ def start():
   while scene1 not in options:
     print("Not a valid option. Please answer A or B") 
     scene1 = input("What do you do? \n A) Go and check out the bathroom for any water leaks \n B) Stay in bed because you are too lazy")
-    
+
   scene1_options(scene1)
 
 
